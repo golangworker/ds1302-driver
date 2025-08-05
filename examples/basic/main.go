@@ -3,7 +3,7 @@ package main
 import (
 	"machine"
 	"time"
-	"github.com/YOUR_USERNAME/ds1302-driver"
+"github.com/golangworker/ds1302-driver"
 )
 
 func main() {

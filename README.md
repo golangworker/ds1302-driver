@@ -19,7 +19,7 @@ DS1302 - это недорогая микросхема часов реальн�
 ## Установка
 
 ```bash
-go get github.com/YOUR_USERNAME/ds1302-driver
+go get github.com/golangworker/ds1302-driver
 ```
 
 ## Использование
@@ -30,7 +30,7 @@ package main
 import (
     "machine"
     "time"
-    "github.com/YOUR_USERNAME/ds1302-driver"
+"github.com/golangworker/ds1302-driver"
 )
 
 func main() {

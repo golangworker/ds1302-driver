@@ -1,3 +1,3 @@
 module github.com/golangworker/ds1302-driver
 
-go 1.23.11
+go 1.21
