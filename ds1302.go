@@ -1,3 +1,5 @@
+//go:build tinygo
+
 // Package ds1302 предоставляет драйвер для микросхемы DS1302 Real Time Clock (RTC)
 // для использования с TinyGo на микроконтроллерах ESP32.
 //
