@@ -167,7 +167,7 @@ func (d *DS1302) ReadTime() time.Time {
     hours := bcdToDec(d.readRegister(DS1302_HOURS_READ))
     day := bcdToDec(d.readRegister(DS1302_DATE_READ))
     month := bcdToDec(d.readRegister(DS1302_MONTH_READ))
-    year := 2000 + bcdToDec(d.readRegister(DS1302_YEAR_READ))
+    year := int(2000) + int(bcdToDec(d.readRegister(DS1302_YEAR_READ)))
     
     return time.Date(int(year), time.Month(month), int(day), 
                     int(hours), int(minutes), int(seconds), 0, time.UTC)
